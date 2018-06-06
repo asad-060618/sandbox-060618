@@ -17,7 +17,7 @@ namespace Sandbox_060618.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "This is my application!";
 
             return View();
         }
